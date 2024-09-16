@@ -1,0 +1,39 @@
+body {
+  background-color:  #D3D3D3;
+}
+
+.qr-code-header {
+
+  padding: 20px;
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.qr-code-container {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  background-color: #CEE6F2;
+  width: 1200px;
+  height: 750px;
+  box-shadow: 5px 5px 2px lightblue;
+  border-radius: 10px;
+}
+
+.qr-inner-container {
+  display: grid;
+  place-items: normal center;
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+}
